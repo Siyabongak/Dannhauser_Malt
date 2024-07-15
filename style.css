@@ -1,0 +1,145 @@
+/*CSS reset*/
+body, h2, ul, li,a, footer, nav, p{
+    margin:0px;
+    padding: 0px;
+    border:0;
+    max-width: 100%;
+}
+/*heading container for Desktop */
+.container{
+    
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e8d500;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.8%;
+    border-radius: 0.5em;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+
+header {
+    width:25%;
+    margin-left: 0.7em;
+}
+/*Desktop nav and ul styles */
+nav{
+   width: 70%; 
+   margin-top: 3%;
+   text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+    align-items: center;
+    margin: 0 auto;  
+}
+/*desktop nav list items*/
+nav li{
+    display: inline-block;
+    padding: 1.5%;
+    font-family: 'Francois One', sans-serif;   
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 1.75em;
+    color:  #e8d500;
+    padding: 0.2em 0.5em;
+    background-color: #da5332;
+    
+}
+
+nav li a:hover {
+    background-color: #e8d500;
+    color: #da5332;
+}
+
+.hero img{
+    max-width: 100%;
+    position: relative;
+}
+/*desktop main area with 80% width */
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*heading throughout the website*/
+.heading{
+    /* position: absolute; */
+    /* background-color: #da5332; */
+    color: #da5332;
+    font-family: 'Francois One', sans-serif;
+    font-size: 1.75em;
+    /* left: 0;
+    top:30%; */
+    padding: 0.75em;
+    text-align: center; 
+}
+
+main P span{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #2f5a08;
+
+}
+
+/*Paragraph style throughout the website*/
+p {
+    /* line-height: 2em; */
+    font-size: 1.2em;
+    font-family: 'Francois One', sans-serif;
+    color: #4b4b4b;
+    padding: 0.2em;
+}
+
+/*product page item container*/
+.item-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/*each item container */
+.item{
+    width:45%;
+}
+
+.description {
+    max-width: 100%;
+    text-align: center;
+}
+.description p{
+    margin-bottom: 30px;
+    font-size: 1em;
+}
+
+/*map design*/
+.map{
+   border: 2px solid #4b4b4b;
+   width: 90%;
+   height: 90%; 
+}
+/*footer styles*/
+footer{
+    background-color: #000;
+    text-align: center;
+    padding:0.15em;
+}
+
+footer p {
+    color: #fff;
+    padding: 0 1em;
+    font-size: 0.8em;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #fff;
+}
